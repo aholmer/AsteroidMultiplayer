@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="simulatebot4" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="simulatebot4.js" working-dir="$PROJECT_DIR$">
+    <method />
+  </configuration>
+</component>

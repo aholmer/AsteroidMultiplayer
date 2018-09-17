@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="mybot" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="mybot.js" working-dir="$PROJECT_DIR$">
+    <method />
+  </configuration>
+</component>

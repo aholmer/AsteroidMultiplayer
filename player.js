@@ -15,16 +15,15 @@ function Player(id, color, name){
   this.respawnShip = function(pos){
     this.ship = new Ship(this.color, pos);
     this.dead = false;
-  }
-
+  };
   this.killShip = function(ship){
     this.ship = undefined;
     this.dead = true;
-  }
+  };
 
   this.calculatePoints = function(){
     return (this.kills*10)+(this.asteroidsDestroyed*1)-(this.deaths*3);
-  }
+  };
 }
 
 Player.createFromPlayer = function(player){

@@ -3,7 +3,7 @@ var gameData;
 
 socket.on("connect", function(){
   socket.emit("play", {name: "Jesper-NodeJS"});
-})
+});
 socket.on("update", function (data) {
   gameData = data;
 });
@@ -12,7 +12,7 @@ socket.on("update", function (data) {
 setInterval(function(){
   if(gameData){
 		socket.emit('boost');
-    if(Math.floor(Math.random() * 2) == 0)
+    if(Math.floor(Math.random() * 2) === 0)
     {
       socket.emit("rotateCounterClockwise");
     }
